@@ -47,7 +47,7 @@
         context[@"context"] = ^(){
             NSArray  *f = [JSContext currentArguments];
             for (JSValue *al in f) {
-                
+                NSLog(@"%@", al);
             }
         };
         
